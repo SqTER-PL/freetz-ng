@@ -31,12 +31,12 @@ fi
 [ "$(grep -vE "^#|^ *$" $DIR/addon/*.pkg 2>/dev/null | wc -l)" != "0" ] && RC="${RC}A"
 [ -L $DIR/addon ]                                                       && RC="${RC}S"
 [ -f $DIR/make/pkgs/mod/files/root/usr/mww/cgi-bin/i-matik.cgi ]        && RC="${RC}I"
-R=" ${RC:+$RC-}${RH:-UNKNOWN}${RB:+ $RB}${RD:+ $RD}"
+R=" $(date +%F)"
 [ "${1:0:1}" == "f" ] && R="${R// /-}"
 case "${1}" in
-	s|short)	echo "${RC//[ABCDEFGHIJKLMNOPQRSTUVWXYZ]/}-${RH}" ;;
-	m|make)		echo "Freetz-NG${R#-}" ;;
+	s|short)	echo "Freetz-NG${R} (SqTER)" ;;
+	m|make)		echo "Freetz-NG${R} (SqTER)" ;;
 #	f|fwmod)	;&
-	*)		echo "$(cat $DIR/.version)${R}" ;;
+	*)		echo "$(cat $DIR/.version)${R} (SqTER)" ;;
 esac
 
