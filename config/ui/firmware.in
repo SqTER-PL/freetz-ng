@@ -526,6 +526,11 @@ choice
 		select FREETZ_AVM_SOURCE_FOR_SYSTEM_TYPE_AR934x
 		bool "1240E - UNTESTED"
 
+	config FREETZ_TYPE_1249
+		depends on FREETZ_SERIES_ALL || FREETZ_SERIES_EXT
+		select FREETZ_AVM_SOURCE_FOR_SYSTEM_TYPE_QCAARMv8
+		bool "1240 AX - UNTESTED"
+
 	config FREETZ_TYPE_1260_V1
 		depends on FREETZ_SERIES_ALL || FREETZ_SERIES_EXT
 		select FREETZ_AVM_SOURCE_FOR_SYSTEM_TYPE_IPQ40xx
@@ -722,7 +727,6 @@ choice
 	config FREETZ_TYPE_FIRMWARE_07_5X
 		bool "FRITZ!OS 07.50+"
 		select FREETZ_AVM_VERSION_07_5X
-		select FREETZ_TYPE_FIRMWARE_DETECT_LATEST if !FREETZ_SHOW_DEVELOPER
 		depends on FREETZ_AVM_HAS_FIRMWARE_07_5X
 
 	config FREETZ_TYPE_FIRMWARE_07_5X_LABOR
@@ -736,13 +740,19 @@ choice
 	config FREETZ_TYPE_FIRMWARE_07_5X_INHAUS
 		bool "FRITZ!OS 07.51 Inhaus - UNTESTED"
 		select FREETZ_AVM_VERSION_07_5X
-		select FREETZ_TYPE_FIRMWARE_DETECT_LATEST if FREETZ_AVM_HAS_FIRMWARE_LABOR
+		select FREETZ_TYPE_FIRMWARE_DETECT_LATEST
 		depends on FREETZ_AVM_HAS_FIRMWARE_07_5X_INHAUS && FREETZ_SHOW_EXPERT
 		help
 			Enable this to use an AVM Inhaus firmware as base for modding.
 
 
 endchoice # "Firmware version" #
+
+comment " >> This firmware has webcm vulnerability"
+	depends on FREETZ_AVM_HAS_CVE_2014_9727
+
+comment " >> This firmware has tr064cgi vulnerability"
+	depends on FREETZ_AVM_HAS_UPSI_2023_TR064CGI
 
 comment " >> This firmware fits on AVM and AVME devices"
 	depends on FREETZ_AVM_PROP_ALL_REGIONS && !( ( (!FREETZ_AVM_HAS_BRANDING_1und1 || FREETZ_REMOVE_BRANDING_1und1) && FREETZ_REMOVE_BRANDING_avm) || FREETZ_REMOVE_BRANDING_avme)
@@ -766,7 +776,7 @@ config FREETZ_AVM_VERSION_LATEST_MAJOR
 
 config FREETZ_TYPE_FIRMWARE_DETECT_LATEST
 	bool "Detect the latest firmware version"
-#	depends on FREETZ_SHOW_EXPERT
+	depends on FREETZ_SHOW_EXPERT
 	depends on FREETZ_AVM_HAS_JUIS_SUPPORT
 	depends on !FREETZ_TYPE_FIRMWARE_FINAL || FREETZ_AVM_VERSION_LATEST_MAJOR
 	select FREETZ_DL_DETECT_IMAGE_NAME
@@ -844,18 +854,17 @@ config FREETZ_TYPE_FIRMWARE_UNTESTED
 	depends on \
 		FREETZ_TYPE_0300 || \
 		FREETZ_TYPE_1240 || \
+		FREETZ_TYPE_1249 || \
 		FREETZ_TYPE_1260_V2 || \
-		FREETZ_TYPE_2400 || \
 		FREETZ_TYPE_3009 || \
-		FREETZ_TYPE_7521 || \
-		FREETZ_TYPE_6690 || \
 		FREETZ_TYPE_6810 || \
 		FREETZ_TYPE_6820_V3 || \
 		FREETZ_TYPE_6842 || \
 		FREETZ_TYPE_6850_4G || \
 		FREETZ_TYPE_6850_5G || \
+		FREETZ_TYPE_7521 || \
 		FREETZ_TYPE_7582 || \
-		FREETZ_TYPE_GATE
+		FREETZ_TYPE_7584
 
 ###
 ### Alien firmware
@@ -1129,7 +1138,7 @@ choice
 		bool "Alice IAD 3331"
 		depends on FREETZ_TYPE_7170 && FREETZ_TYPE_LANG_DE
 		select FREETZ_REMOVE_PIGLET_V1 if FREETZ_SHOW_EXPERT
-		select FREETZ_ENFORCE_URLADER_SETTINGS
+		select FREETZ_ENFORCE_URLADER_SETTINGS if FREETZ_AVM_VERSION_07_1X_MAX
 		help
 			Enable this to compile a mod image for Alice IAD 3331 based
 			on a 7170 image.

@@ -5,10 +5,10 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
 
 ### A
 
-  * **[ACME.sh 3.0.6 (letsencrypt)](acme.md)<a id='acme'></a>**<br>
+  * **[ACME.sh 3.0.7 (letsencrypt)](acme.md)<a id='acme'></a>**<br>
     A pure Unix shell script implementing ACME client protocol.
 
-  * **[Apache2 2.4.57 (binary only)](apache2.md)<a id='apache2'></a>**<br>
+  * **[Apache2 2.4.58 (binary only)](apache2.md)<a id='apache2'></a>**<br>
     The Apache httpd server
 
   * **<u>asterisk-chan-capi: chan_capi: ISDN API 2.0 module for asterisk</u><a id='asterisk-chan-capi'></a>**<br>
@@ -107,7 +107,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **[Ctorrent dnh3.3.2 (binary only)](ctorrent.md)<a id='ctorrent'></a>**<br>
     CTorrent is a BitTorrent client written in the C programming language, known to be a very robust and mature programming language, which produces fast and optimized application.
 
-  * **[Curl 8.2.1 (binary only)](curl.md)<a id='curl'></a>**<br>
+  * **[Curl 8.4.0 (binary only)](curl.md)<a id='curl'></a>**<br>
     Curl is a command line tool for transferring files with URL syntax, supporting FTP, FTPS, HTTP, HTTPS, GOPHER, TELNET, DICT, FILE and LDAP. Curl supports HTTPS certificates, HTTP POST, HTTP PUT, FTP uploading, kerberos, HTTP form based upload, proxies, cookies, user+password authentication, file transfer resume, http proxy tunneling and a busload of other useful tricks.
 
   * **<u>CurlFtpFS 0.9.2</u><a id='curlftpfs'></a>**<br>
@@ -157,7 +157,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **[dtach 0.8 (binary only)](dtach.md)<a id='dtach'></a>**<br>
     dtach is a tiny program that emulates the detach feature of screen, allowing you to run a program in an environment that is protected from the controlling terminal and attach to it later.
 
-  * **[dtc 1.6.1](dtc.md)<a id='dtc'></a>**<br>
+  * **[dtc 1.7.0](dtc.md)<a id='dtc'></a>**<br>
     Device  Tree  Compiler,  dtc, takes as input a device-tree in a given format and outputs a device-tree in another format for booting kernels on  embedded  systems.   Typically,  the input  format  is  "dts",  a  human readable source format, and creates a "dtb", or binary format as output.
 
   * **<u>dvbsnoop 1.4.50 (binary only)</u><a id='dvbsnoop'></a>**<br>
@@ -199,6 +199,9 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
 
   * **[fstyp 0.1 (binary only)](fstyp.md)<a id='fstyp'></a>**<br>
     fstyp can be used to heuristically detect which filesystem type a block device contains.
+
+  * **[ftdi1 1.5](ftdi1.md)<a id='ftdi1'></a>**<br>
+    ftdi_eeprom of libftdi1 is a small tool for reading/erasing/flashing FTDI USB chip eeproms. It uses libftdi1 to access the chip, so you will need to have the required permissions on the device. The ftdi_sio module should not be loaded. You have to unplug and replug your device to get the new values to be read. Otherwise, you will still get the old values.
 
   * **[FUSE 2.9.9 (binary only)](fuse.md)<a id='fuse'></a>**<br>
     Filesystem in Userspace (FUSE) is a free Unix kernel module that allows non-privileged users to create their own file systems without the need to write any kernel code. This is achieved by running the file systemcode in user space, while the FUSE module only provides a "bridge" to the actual kernel interfaces. FUSE was officially merged into the mainstream Linux kernel tree in kernel version 2.6.14. FUSE is particularly useful for writing virtual file systems. Unlike traditional filesystems which essentially save data to and retrieve data from disk, virtual filesystems do not actually store data themselves. They act as a view or translation of an existing filesystem or storage device. In principle, any resource available to FUSE implementation can be exported as a file system. In Freetz, the NTFS package depends on fuse, for example.
@@ -263,7 +266,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
 
 ### I
 
-  * **<u>iconv 1.13.1 (binary only)</u><a id='iconv'></a>**<br>
+  * **[iconv 1.13.1 (binary only)](iconv.md)<a id='iconv'></a>**<br>
     A program for converting text from one encoding to another.
 
   * **<u>ifstat 1.1 (binary only)</u><a id='ifstat'></a>**<br>
@@ -275,7 +278,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **[IGMPproxy 0.4](igmpproxy.md)<a id='igmpproxy'></a>**<br>
     IGMPproxy is a simple dynamic Multicast Routing Daemon using only IGMP signalling. It's intended for simple forwarding of Multicast traffic between networks.
 
-  * **[ImageMagick 7.1.0-57 (binary only)](imagemagick.md)<a id='imagemagick'></a>**<br>
+  * **[ImageMagick 7.1.1-20 (binary only)](imagemagick.md)<a id='imagemagick'></a>**<br>
     ImageMagick is a robust collection of tools and libraries to read, write, and manipulate an image in many image formats, including popular formats like TIFF, JPEG, PNG, PDF, PhotoCD, and GIF. With ImageMagick, you can create images dynamically, making it suitable for Web applications. You can also resize, rotate, sharpen, color-reduce, or add special effects to an image and save your completed work in many different image formats. Image processing operations are available from the command line as well as through C, C++, and PERL-based programming interfaces.
 
   * **[Inadyn-mt 02.28.10](inadyn-mt.md)<a id='inadyn-mt'></a>**<br>
@@ -290,13 +293,13 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **[iodine 0.7.0](iodine.md)<a id='iodine'></a>**<br>
     iodine lets you tunnel IPv4 data through a DNS server. This can be usable in different situations where internet access is firewalled, but DNS queries are allowed.
 
-  * **[iPerf3 3.3/3.14 (binary only)](iperf.md)<a id='iperf'></a>**<br>
+  * **[iPerf3 3.3/3.15 (binary only)](iperf.md)<a id='iperf'></a>**<br>
     iPerf3 is a tool for active measurements of the maximum achievable bandwidth on IP networks. It supports tuning of various parameters related to timing, buffers and protocols (TCP, UDP, SCTP with IPv4 and IPv6). For each test it reports the bandwidth, loss, and other parameters. S. https://github.com/esnet/iperf for more details.
 
   * **<u>IPsec-tools 0.7.2</u><a id='ipsec-tools'></a>**<br>
     IPsec-tools (plainrsa-gen racoon racoonctl setkey)
 
-  * **[Iptables-CGI 1.1](iptables-cgi.md)<a id='iptables'></a>**<br>
+  * **[Iptables-CGI](iptables-cgi.md)<a id='iptables'></a>**<br>
 
   * **<u>Iptraf 3.0.1 (binary only)</u><a id='iptraf'></a>**<br>
     IPTraf is a console-based network monitoring program for Linux that displays information about IP traffic. It returns such information as: Current TCP connections UDP, ICMP, OSPF, and other types of IP packets Packet and byte counts on TCP connections IP, TCP, UDP, ICMP, non-IP, and other packet and byte counts TCP/UDP counts by ports Packet counts by packet sizes Packet and byte counts by IP address Interface activity Flag statuses on TCP packets LAN station statistics
@@ -336,7 +339,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **<u>lftp 4.8.4 (binary only)</u><a id='lftp'></a>**<br>
     LFTP is sophisticated file transfer program with command line interface. It supports FTP, HTTP, FISH, SFTP, HTTPS and FTPS protocols. GNU Readline library is used for input.
 
-  * **[Lighttpd 1.4.71](lighttpd.md)<a id='lighttpd'></a>**<br>
+  * **[Lighttpd 1.4.72](lighttpd.md)<a id='lighttpd'></a>**<br>
     Security, speed, compliance, and flexibility -- all of these describe lighttpd (pron. lighty) which is rapidly redefining efficiency of a webserver; as it is designed and optimized for high performance environments. With a small memory footprint compared to other web-servers, effective management of the cpu-load, and advanced feature set (FastCGI, SCGI, Auth, Output-Compression, URL-Rewriting and many more) lighttpd is the perfect solution for every server that is suffering load problems. In case you want to configure virtual hosts, you may want to consider the package onlinechanged-cgi which allows you to configure multiple DynDNS entries for your box.
 
   * **[Lua 5.1.5/5.4.4 (binary only)](lua.md)<a id='lua'></a>**<br>
@@ -415,7 +418,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **[netsnmp: Net-SNMP 5.9.4](netsnmp.md)<a id='netsnmp'></a>**<br>
     SNMP (Simple Network Management Protocol) daemon. SNMP is a widely used protocol for monitoring the health and welfare of network equipment (eg. routers), computer equipment and even devices like UPSs. Net-SNMP is a suite of applications used to implement SNMP v1, SNMP v2c and SNMP v3.
 
-  * **<u>nfsroot: NFS-root 0.1</u><a id='nfsroot'></a>**<br>
+  * **<u>nfsroot: NFS-root 1.0</u><a id='nfsroot'></a>**<br>
     Mount a remote filesystem (fs) from an NFS server and use it as a root fs which is fully writable and basically unlimited in size. The Linux kernel will still be loaded from your box and during the first phase of the init process the SquashFS on the box is still used, but after the NFS-root is mounted, we pivot_root into it and it becomes the new root fs. The read-only fs on the box can still be accessed under /oldroot, but is absolutely not necessary anymore after pivot_root. Having said that, it should be clear that the remote folder to be mounted should contain everything necessary to run the box. Usually you just create a full copy of a target fs (e.g. from build/modified/filesystem or from an unpacked firmware image) and start modifying it as needed. The binaries (kernel modules, executables, shared libraries) used therein just have to fit the kernel installed on the box. Note: The mini_fo overlay filesystem will not be used if an NFS-root was mounted first (see mini_fo package). Still, both packages can be installed at the same time, because mini_fo is still useful if NFS-root is decativated. Note: This package needs "replace kernel" because a kernel patch is necessary to make the 'nfsroot' bootloader environment variable usable for our purpose. So, if if "replace kernel" is inactive, you will not see this package in menuconfig. Note: There currently is no web interface for this package, because an NFS-root is an expert thing anyway. The command-line interface and help screen of /etc/init.d/rc.nfs makes it pretty easy to (de-)activate and configure the functionality of this package. As configuration data are stored in bootloader environment rather than in TFFS like for other packages, this package is special anyway.
 
   * **[nfs-utils 1.3.4 (binary only)](nfs-utils.md)<a id='nfs-utils'></a>**<br>
@@ -436,7 +439,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **[NTFS-3G 2017.3.23 (binary only)](ntfs.md)<a id='ntfs'></a>**<br>
     The NTFS-3G driver is an open source, freely available read/write NTFS driver for Linux, FreeBSD, OS X, and NetBSD. It provides safe and fast handling of the Windows XP, Windows Server 2003, Windows 2000 and Windows Vista file systems. Most POSIX file system operations are supported, with the exception of full file ownership and access right support. This binary is needed for ntfs automount feature thus there is no webinterface.
 
-  * **[NZBGet 21.1/21.4-rc1](nzbget.md)<a id='nzbget'></a>**<br>
+  * **[NZBGet 21.1/21.4-rc2](nzbget.md)<a id='nzbget'></a>**<br>
     NZBGet is a command-line based binary news grabber for nzb files, written in C++. It supports client/server mode, automatic par-check/-repair and web-interface (via additional package). NZBGet requires low system resources and runs great on routers, NAS-devices and media players.
 
 ### O
@@ -456,10 +459,10 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **[Openntpd 3.9p1](openntpd.md)<a id='openntpd'></a>**<br>
     OpenNTPD is a FREE, easy to use implementation of the Network Time Protocol. This package automatically removes AVM'S chronyd if necessary.
 
-  * **[OpenSSH 9.3p2/9.4p1](openssh.md)<a id='openssh'></a>**<br>
+  * **[OpenSSH 9.3p2/9.5p1](openssh.md)<a id='openssh'></a>**<br>
     OpenSSH is the premier connectivity tool for remote login with the SSH protocol. It encrypts all traffic to eliminate eavesdropping, connection hijacking, and other attacks. In addition, OpenSSH provides a large suite of secure tunneling capabilities, several authentication methods, and sophisticated configuration options.
 
-  * **[OpenSSL 0.9.8zh/1.0.2u/1.1.1v/3.0.10 (binary only)](openssl.md)<a id='openssl'></a>**<br>
+  * **[OpenSSL 0.9.8zh/1.0.2u/1.1.1w/3.0.12 (binary only)](openssl.md)<a id='openssl'></a>**<br>
     This package contains the OpenSSL command-line utility.
 
   * **[OpenVPN 2.4.12/2.5.9/2.6.6](openvpn.md)<a id='openvpn'></a>**<br>
@@ -478,9 +481,6 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
 
   * **<u>phonebook-tools: Phone book tools 1.0</u><a id='phonebook-tools'></a>**<br>
     A set of tools for reading and converting Fritz!Box phone book to such (easy parseable) formats like: - .csv (comma-separated values), or - .tsv (tab-separated values).
-
-  * **[PHP 5.6.40 (binary only)](php.md)<a id='php'></a>**<br>
-    PHP: Hypertext Preprocessor PHP is a widely-used general-purpose scripting language that is especially suited for Web development and can be embedded into HTML. Much of its syntax is borrowed from C, Java and Perl with a couple of unique PHP-specific features thrown in. The goal of the language is to allow web developers to write dynamically generated pages quickly.
 
   * **[Pingtunnel 0.72](pingtunnel.md)<a id='pingtunnel'></a>**<br>
     Ptunnel is an application that allows you to reliably tunnel TCP connections to a remote host using ICMP echo request and reply packets, commonly known as ping requests and replies. At first glance, this might seem like a rather useless thing to do, but it can actually come in handy in some cases.
@@ -508,7 +508,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **[Privoxy 3.0.34](privoxy.md)<a id='privoxy'></a>**<br>
     Privoxy is a web proxy with advanced filtering capabilities for protecting privacy, modifying web page data, managing cookies, controlling access, and removing ads, banners, pop-ups and other obnoxious Internet junk. It can also be used together with Tor Proxy to forward HTTP traffic to Tor as described in the Tor documentation. Open http://config.privoxy.org/show-status for details.
 
-  * **[ProxyChains-NG 4.14](proxychains-ng.md)<a id='proxychains-ng'></a>**<br>
+  * **[ProxyChains-NG 4.16](proxychains-ng.md)<a id='proxychains-ng'></a>**<br>
     A preloader which hooks calls to sockets in dynamically linked programs and redirects it through one or more socks/http proxies, tor is also supported. Usage: proxychains4 telnet mail.example.com 25
 
   * **[psl 0.21.2 (binary only)](psl.md)<a id='psl'></a>**<br>
@@ -534,7 +534,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **<u>python-pycrypto: pycrypto 2.6.1</u><a id='python-pycrypto'></a>**<br>
     A collection of both secure hash functions (such as MD5 and SHA), and various encryption algorithms (AES, DES, IDEA, RSA, ElGamal, etc.).
 
-  * **<u>python-pycurl: pycurl 7.43.0</u><a id='python-pycurl'></a>**<br>
+  * **[python-pycurl: pycurl 7.43.0](python-pycurl.md)<a id='python-pycurl'></a>**<br>
     PycURL is a Python interface to libcurl. PycURL can be used to fetch objects identified by a URL from a Python program.
 
   * **<u>python-pyopenssl: pyopenssl 0.13.1</u><a id='python-pyopenssl'></a>**<br>
@@ -629,7 +629,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **<u>spawn-fcgi 1.6.3 (binary only)</u><a id='spawn-fcgi'></a>**<br>
     Spawns FastCGI processes
 
-  * **[SQLite 3.43.0 (binary only)](sqlite.md)<a id='sqlite'></a>**<br>
+  * **[SQLite 3.43.2 (binary only)](sqlite.md)<a id='sqlite'></a>**<br>
     SQLite is a small C library that implements a self-contained, embeddable, zero-configuration SQL database engine.
 
   * **<u>squashfs3: squashfs-tools 3.4</u><a id='squashfs3'></a>**<br>
@@ -644,13 +644,13 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **<u>sshfs-fuse 2.4 (binary only)</u><a id='sshfs-fuse'></a>**<br>
     This is a filesystem client based on the SSH File Transfer Protocol. Since most SSH servers already support this protocol it is very easy to set up: i.e. on the server side there's nothing to do. On the client side mounting the filesystem is as easy as logging into the server with ssh.
 
-  * **[sslh 1.22c](sslh.md)<a id='sslh'></a>**<br>
+  * **[sslh 2.0.1](sslh.md)<a id='sslh'></a>**<br>
     sslh accepts HTTPS, SSH and OpenVPN connections on the same port. This makes it possible to connect to an SSH server or an OpenVPN on port 443 (e.g. from inside a corporate firewall, which almost never block port 443) while still serving HTTPS on that port.
 
   * **[Streamripper 1.64.6](streamripper.md)<a id='streamripper'></a>**<br>
     Streamripper records mp3 and ogg streams. For shoutcast style streams it finds the "meta data" or track separation data, and uses that as a marker for where the track should be separated.
 
-  * **[Stunnel 5.70](stunnel.md)<a id='stunnel'></a>**<br>
+  * **[Stunnel 5.71](stunnel.md)<a id='stunnel'></a>**<br>
     Stunnel universal SSL proxy
 
   * **[Subversion 1.9.12/1.14.2](subversion.md)<a id='subversion'></a>**<br>
@@ -699,7 +699,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **[tmux 3.3a (binary only)](tmux.md)<a id='tmux'></a>**<br>
     tmux, a BSD-licensed alternative to GNU screen. Uses ncurses.
 
-  * **[Tor 0.4.8.5](tor.md)<a id='tor'></a>**<br>
+  * **[Tor 0.4.8.7](tor.md)<a id='tor'></a>**<br>
     The Onion Router Anonymous Internet communication system.
 
   * **[Transmission 3.00/4.0.4 (binary only)](transmission.md)<a id='transmission'></a>**<br>
@@ -719,13 +719,13 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **<u>uMurmur 0.2.20</u><a id='umurmur'></a>**<br>
     umurmur is a minimalistic Mumble server primarily targeted to run on routers using less resources. It targets to fill the needs of a pretty small group of users communicating, which in part originates from the other goal of working well on a small system with a limited CPU and limited amount of disk space. It also aims to minimize writing to the disk since these kinds of systems usually only has a flash memory for disk. umurmur supports a subset of the features of Murmur. https://github.com/umurmur/umurmur
 
-  * **[Unbound 1.17.1](unbound.md)<a id='unbound'></a>**<br>
+  * **[Unbound 1.18.0](unbound.md)<a id='unbound'></a>**<br>
     Unbound is designed as a set of modular components, so that also DNSSEC (secure DNS) validation and stub-resolvers (that do not run as a server, but are linked into an application) are easily possible.
 
   * **[UNFS3 0.9.23](unfs3.md)<a id='unfs3'></a>**<br>
     Userspace NFS v3 Server.
 
-  * **[UnRAR 6.1.7/6.2.10 (binary only)](unrar.md)<a id='unrar'></a>**<br>
+  * **[UnRAR 6.1.7/6.2.12 (binary only)](unrar.md)<a id='unrar'></a>**<br>
     Unarchiver for .rar files
 
   * **[usbids: usb.ids a5edeafb60](usbids.md)<a id='usbids'></a>**<br>
@@ -736,7 +736,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
 
 ### V
 
-  * **[Vim 9.0.0049 (binary only)](vim.md)<a id='vim'></a>**<br>
+  * **[Vim 9.0.1872 (binary only)](vim.md)<a id='vim'></a>**<br>
     An improved version of VI
 
   * **[vnstat 1.18 (binary only)](vnstat.md)<a id='vnstat'></a>**<br>
@@ -830,9 +830,6 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **<u>Collectd 4.10.3</u><a id='collectd'></a>**<br>
     Collectd collects information about the system it is running on and stores this information. The information can then be used to do find current performance bottlenecks (i. e. performance analysis) and predict future system load (i. e. capacity planning). Or if you just want pretty graphs of your private server and are fed up with some homegrown solution you're at the right place, too.
 
-  * **<u>fhem -r16562 (5.8)</u><a id='fhem'></a>**<br>
-    fhem is a perl server for house automation, see web page http://fhem.de
-
   * **<u>gptfdisk 1.0.1</u><a id='gptfdisk'></a>**<br>
     Interactive GUID partition table (GPT) manipulator
 
@@ -851,8 +848,8 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **[MySQL 6.0.11-alpha](mysql.md)<a id='mysql'></a>**<br>
     MySQL is a very fast, multi-threaded, multi-user and robust SQL (Structured Query Language) database server. Unstable, as this version is quite old, but runs well on Fritzbox. Do not expose this daemon to the internet!
 
-  * **<u>Perl 5.32.1 (binary only)</u><a id='perl'></a>**<br>
-    Perl without operating-specific functions such as readdir.
+  * **[PHP 5.6.40 (binary only)](php.md)<a id='php'></a>**<br>
+    PHP: Hypertext Preprocessor PHP is a widely-used general-purpose scripting language that is especially suited for Web development and can be embedded into HTML. Much of its syntax is borrowed from C, Java and Perl with a couple of unique PHP-specific features thrown in. The goal of the language is to allow web developers to write dynamically generated pages quickly.
 
   * **[sane-backends: SANE 1.0.27](sane-backends.md)<a id='sane-backends'></a>**<br>
     SANE - Scanner support (initial Freetz package by Michael Denk, tehron @ http://www.ip-phone-forum.de/)
@@ -869,7 +866,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **[usbroot: USB root 0.2](usbroot.md)<a id='usbroot'></a>**<br>
     Mount an ext{2,3} filesystem (fs) from an USB stick and use it as root fs which may be fully writable and basically unlimited in size. The Linux kernel will still be loaded from your box and during the first phase of the init process the SquashFS on the box is still used, but after the USB root is mounted, we pivot_root into it and it becomes the new root fs. The default is to unmount the read-only fs on the box to conserve memory, but if desired, it can be still be accessed under /oldroot (though this is absolutely not necessary anymore after pivot_root). Having said that, it should be clear that the usb stick should contain everything necessary to run the box. Usually you just create a full copy of a target filesystem (e.g. from build/modified/filesystem or from an unpacked firmware image) and start modifying it as needed. The binaries (kernel modules, executables, shared libraries) used therein just have to fit the kernel installed on the box. Note: The webinterface makes it pretty easy to (de-)activate and configure the functionality of this package. However, USB root is an expert thing! See also the help screen of /etc/init.d/rc.usbroot for further description. As some config data is stored in bootloader environment, this package is special anyway.
 
-  * **[virtualip-cgi: Virtual IP CGI 0.4.2 (deprecated)](virtualip-cgi.md)<a id='virtualip'></a>**<br>
+  * **[virtualip-cgi: Virtual IP CGI (deprecated)](virtualip-cgi.md)<a id='virtualip'></a>**<br>
     Creates a virtual network interface. In former times this was used to comfortably open server ports on the Fritz!Box itself via AVM web interface. Nowadays the avm-firewall package is used for this task. The package is also equipped with a configuration interface for the Freetz web configurator which lets you choose the IP address and net mask of the virtual interface as well as toggle auto-start.
 
   * **<u>Zabbix 2.4.6 (binary only)</u><a id='zabbix'></a>**<br>
@@ -895,7 +892,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **[AVM-rules (deprecated)](avm-rules.md)<a id='avm-rules'></a>**<br>
     Configuration of port forwardings to the FritzBox itself by using voip_forwardrules. Please don't use this package, but AVM-portfw! Warning: This package changes the ar7.cfg. On syntax errors AVM will reset the whole file to default, including default password and default ip. Backup you config before!
 
-  * **<u>Cpmaccfg CGI 1.0</u><a id='cpmaccfg'></a>**<br>
+  * **<u>Cpmaccfg CGI</u><a id='cpmaccfg'></a>**<br>
     Configuration front-end to cpmaccfg This frontend shows the current settings of the LAN ports and gives a very simple way to set VLAN, portmode and WLAN assigment. Additional to this, you can set IP addresses for the VLAN interfaces eth0-eth3 if needed.
 
   * **[dnsd-cgi](dnsd-cgi.md)<a id='dnsd'></a>**<br>
@@ -925,7 +922,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **[Syslogd CGI](syslogd-cgi.md)<a id='syslogd'></a>**<br>
     Configuration frontend to syslogd
 
-  * **<u>Transmission CGI 0.0.4</u><a id='transmission'></a>**<br>
+  * **<u>Transmission CGI</u><a id='transmission'></a>**<br>
     Provides a simple configuration interface for transmission-daemon.
 
   * **<u>vnstat-cgi: vnstat Webinterface</u><a id='vnstat'></a>**<br>
